@@ -1,0 +1,8 @@
+2025-05-01 23:39:13,797 | INFO | XGBoostAnalysis | Using pre-loaded enhanced dataframe 'df'.
+2025-05-01 23:39:13,822 | INFO | XGBoostAnalysis | XGBoost dataset after NA drop → (12433, 11)
+2025-05-01 23:39:13,840 | INFO | XGBoostAnalysis | Train size: 9946 | Test size: 2487
+2025-05-01 23:39:17,065 | INFO | XGBoostAnalysis | Model trained successfully.
+2025-05-01 23:39:17,138 | INFO | XGBoostAnalysis | Metrics saved → /content/results/xgboost_shap/xgboost_metrics.txt
+2025-05-01 23:39:23,485 | INFO | XGBoostAnalysis | SHAP plot saved → /content/results/xgboost_shap/shap_summary_plot.png
+2025-05-01 23:39:23,497 | INFO | XGBoostAnalysis | Model saved → /content/results/xgboost_shap/xgboost_model.joblib
+2025-05-01 23:39:23,498 | INFO | XGBoostAnalysis | 🎉 XGBoost + SHAP workflow finished.

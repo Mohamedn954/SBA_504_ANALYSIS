@@ -1,0 +1,6 @@
+XGBoost Evaluation Metrics
+==========================
+R²   : 0.2347
+MAE  : 0.7894
+MSE  : 0.9809
+RMSE : 0.9904

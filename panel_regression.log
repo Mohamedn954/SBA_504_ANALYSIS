@@ -1,0 +1,8 @@
+2025-05-01 23:37:57,750 | INFO | PanelAnalysis | Using pre-loaded enhanced dataframe 'df'.
+2025-05-01 23:37:57,756 | INFO | PanelAnalysis | Creating log-transformed dependent variable...
+2025-05-01 23:37:57,840 | INFO | PanelAnalysis | Panel dataset after cleaning → (12433, 11)
+2025-05-01 23:37:57,869 | INFO | PanelAnalysis | Running fixed-effects model: ln_LoanAmountPerCapita ~ 1 + income_adjusted + poverty_rate + total_population + EntityEffects + TimeEffects
+2025-05-01 23:37:58,870 | INFO | PanelAnalysis | Panel regression completed.
+2025-05-01 23:37:58,919 | INFO | PanelAnalysis | Regression summary saved → /content/results/panel_regression/panel_regression_results.txt
+2025-05-01 23:37:58,931 | INFO | PanelAnalysis | VIF table saved → /content/results/panel_regression/vif_results.txt
+2025-05-01 23:37:58,932 | INFO | PanelAnalysis | 🎉 Panel Regression Analysis finished successfully.

@@ -1,0 +1,6 @@
+Variance Inflation Factor (VIF)
+================================
+         feature       VIF
+ income_adjusted 87.859716
+    poverty_rate  1.283400
+total_population 86.916645

@@ -1,0 +1,36 @@
+Panel Regression – County & Year Fixed Effects
+================================================
+                            PanelOLS Estimation Summary                             
+====================================================================================
+Dep. Variable:     ln_LoanAmountPerCapita   R-squared:                        0.0006
+Estimator:                       PanelOLS   R-squared (Between):             -0.1795
+No. Observations:                   12433   R-squared (Within):               0.0030
+Date:                    Thu, May 01 2025   R-squared (Overall):             -0.0781
+Time:                            23:37:58   Log-likelihood                -1.464e+04
+Cov. Estimator:                 Clustered                                           
+                                            F-statistic:                      1.9548
+Entities:                            2054   P-value                           0.1185
+Avg Obs:                           6.0531   Distribution:                 F(3,10364)
+Min Obs:                           1.0000                                           
+Max Obs:                           13.000   F-statistic (robust):             2.1819
+                                            P-value                           0.0879
+Time periods:                          13   Distribution:                 F(3,10364)
+Avg Obs:                           956.38                                           
+Min Obs:                           859.00                                           
+Max Obs:                           1109.0                                           
+                                                                                    
+                                Parameter Estimates                                 
+====================================================================================
+                  Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+------------------------------------------------------------------------------------
+Intercept            2.8265     0.1474     19.173     0.0000      2.5375      3.1155
+income_adjusted   1.207e-06  6.355e-07     1.8986     0.0576  -3.914e-08   2.452e-06
+poverty_rate        -1.2897     0.7667    -1.6821     0.0926     -2.7927      0.2132
+total_population  7.752e-08  3.432e-07     0.2259     0.8213  -5.952e-07   7.503e-07
+====================================================================================
+
+F-test for Poolability: 4.9313
+P-value: 0.0000
+Distribution: F(2065,10364)
+
+Included effects: Entity, Time
